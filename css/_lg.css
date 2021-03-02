@@ -1,0 +1,38 @@
+@media (min-width: 760px) {
+  :root {
+    --font-size-nm: 18px;
+    --font-size-lg: 64px;
+  }
+  .eg-header-menu {
+    display: none;
+  }
+  .eg-field-box {
+    max-width: 30%;
+  }
+  .eg-portfolio-box {
+    max-width: 44%;
+  }
+  .eg-portfolio-box-ctn {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .eg-testimonial-side {
+    width: 480px;
+    height: 480px;
+    transform: translate(50%, -40%);
+  }
+  .eg-socials-ctn {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .eg-socials-text-ctn,
+  .eg-socials-nav,
+  .eg-contact {
+    width: 45%;
+  }
+
+  .eg-socials-nav,
+  .eg-contact {
+    margin: 8px 16px;
+  }
+}

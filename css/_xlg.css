@@ -1,0 +1,5 @@
+@media (min-width: 1200px) {
+  .eg-portfolio-box {
+    max-width: 30%;
+  }
+}

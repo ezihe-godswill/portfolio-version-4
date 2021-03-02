@@ -1,0 +1,57 @@
+@media (min-width: 520px) {
+  :root {
+    --font-size-md: 24px;
+    --font-size-xmd: 40px;
+    --font-size-lg: 56px;
+  }
+  .eg-header-nav {
+    display: flex;
+  }
+  .eg-header-nav-item {
+    margin: 0 24px;
+    list-style: none;
+  }
+  .eg-header-nav-link {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Recoleta, sans-serif;
+    font-weight: bold;
+    color: var(--color6);
+    letter-spacing: 0.4px;
+  }
+  .eg-header-menu {
+    display: none;
+  }
+  .eg-field-box-ctn {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .eg-field-box {
+    max-width: 46%;
+    margin: 24px 8px;
+  }
+  .eg-portfolio-box {
+    max-width: 58%;
+    margin: 16px 12px;
+  }
+  .eg-testimonial-img {
+    width: 74px;
+    height: 80px;
+    margin: 8px 12px 8px 0;
+  }
+  .eg-testimonial-side {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    background: var(--color1);
+    clip-path: polygon(50% 0%, 100% 20%, 100% 80%, 50% 100%, 0% 80%, 0% 20%);
+    z-index: -100;
+    transform: translate(30%, -40%);
+  }
+
+  .eg-about {
+    border-radius: 124px 124px 0 0;
+  }
+}

@@ -596,7 +596,7 @@ body {
 
 .eg-footer {
   width: 100%;
-  min-height: 20vh;
+  min-height: 10vh;
   background: rgb(0, 77, 102);
   color: var(--color2);
 }

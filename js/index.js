@@ -9,3 +9,8 @@ document
 document
     .querySelector(".eg-right-ctrl")
     .addEventListener("click", () => mySiema.next());
+
+window.addEventListener("scroll", () => {
+    let header = document.querySelector(".eg-header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+});

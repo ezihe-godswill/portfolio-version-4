@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter/Inter-Regular-slnt_2.woff);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter/Inter-SemiBold-slnt_1.woff);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter/Inter-Bold-slnt_1.woff);
+  font-weight: bold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color100: #fdfdfe;
+  --color200: #3898ff;
+  --color300: #081ae1;
+  --color400: #191153;
+  --color500: #f6591c;
+  --color600: #9fbdd9;
+  --color700: #415acb;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: Inter, sans-serif;
+  font-family: 1rem;
+  font-weight: normal;
+  background: var(--color100);
+  color: var(--color400);
+}
+
+.ctn {
+  width: 100%;
+  max-width: 1140px;
+  height: inherit;
+  padding: 0 8px;
+  margin: 0 auto;
+}
+
+.btn {
+  height: 48px;
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--color300);
+  padding: 0 16px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle; /*learn more about 'vertical-align' property*/
+}
+
+.section-header {
+  width: 90%;
+  max-width: 480px;
+  text-align: center;
+  padding: 0 24px 48px 24px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  letter-spacing: 0.6px;
+  color: var(--color300);
+}

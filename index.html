@@ -9,8 +9,12 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-ctn nav-flex-btw ctn">
-        <div class="logo-box"><a href="#" class="logo nav-flex">EZIHE</a></div>
+      <div class="header-ctn nav-flex-btw">
+        <div class="logo-box">
+          <a href="#"
+            ><img class="logo-img" src="css/img/Group8.svg" alt="" />&nbsp;</a
+          >
+        </div>
 
         <div class="menu-cta-box nav-flex">
           <nav class="nav">
@@ -37,11 +41,14 @@
       <div class="home-ctn ctn">
         <div class="home-text-ctn">
           <div class="home-intro">
-            <span>Hi there, I'm</span>
+            <p>
+              Hi there, I'm&nbsp;<span class="home-heading-name"
+                >Ezihe Godswill.</span
+              >
+            </p>
           </div>
           <div class="home-heading">
-            <span class="home-heading-name">Ezihe Godswill.</span>
-            <h2>I craft bespoke web experiences.</h2>
+            <h2>I build <span>beautiful</span> experiences on the web.</h2>
           </div>
           <div class="home-short-description">
             <p>
@@ -67,7 +74,6 @@
           </div>
         </div>
         <div class="porfolio-ctn">
-          <!-- Portfolio item -->
           <div class="portfolio-item">
             <div class="portfolio-item-description-ctn">
               <div class="portfolio-item-name">
@@ -75,7 +81,7 @@
               </div>
               <div class="portfolio-item-tags">
                 <ul class="portfolio-item-tags-list">
-                  <li>UI design</li>
+                  <li>Design</li>
                   <li>Frontend development</li>
                 </ul>
               </div>
@@ -102,11 +108,7 @@
             </div>
             <div class="portfolio-item-image-ctn">
               <a href="#">
-                <!-- <img
-                    src="img/img/855213956_139753.jpg"
-                    alt=""
-                    class="portfolio-img"
-                  /> -->
+                <img src="css/img/image-1.jpg" alt="" class="portfolio-img" />
               </a>
             </div>
           </div>
@@ -144,11 +146,7 @@
             </div>
             <div class="portfolio-item-image-ctn">
               <a href="#">
-                <!-- <img
-                    src="img/img/855213956_139753.jpg"
-                    alt=""
-                    class="portfolio-img"
-                  /> -->
+                <img src="css/img/unnamed-1.jpg" alt="" class="portfolio-img" />
               </a>
             </div>
           </div>
@@ -177,8 +175,13 @@
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="portfolio-item-cta-link">
-                      <span class="fas fa-external-link-alt icon"></span>
+                    <a
+                      href="#"
+                      class="portfolio-item-cta-link"
+                      style="font-weight: 600"
+                    >
+                      Live demo
+                      <!-- <span class="fas fa-external-link-alt icon"></span> -->
                     </a>
                   </li>
                 </ul>
@@ -186,20 +189,14 @@
             </div>
             <div class="portfolio-item-image-ctn">
               <a href="#">
-                <!-- <img
-                    src="img/img/855213956_139753.jpg"
-                    alt=""
-                    class="portfolio-img"
-                  /> -->
+                <img src="css/img/unnamed.jpg" alt="" class="portfolio-img" />
               </a>
             </div>
           </div>
         </div>
         <div class="section-header">
           <h2 class="section-title">Projects archive</h2>
-          <div class="section-title-alt-box">
-            <!-- <p class="section-title-alt">Other noteworthy projects</p> -->
-          </div>
+          <div class="section-title-alt-box"></div>
         </div>
         <div class="portfolio-alt-ctn" id="portfolio">
           <div class="portfolio-alt-box"></div>
@@ -211,10 +208,105 @@
         </div>
       </div>
     </section>
-    <script src="js/all.js"></script>
 
+    <section class="contact" id="contact">
+      <div class="contact-ctn ctn">
+        <div class="section-header">
+          <h2 class="section-title">You've got a Project?</h2>
+          <div class="section-title-alt-box">
+            <p class="section-title-alt">
+              Although I'm not currently looking for any new opportunities, my
+              inbox is always open. Whether you have a question or just want to
+              say hi, I'll try my best to get back to you!
+              <a href="#" class="contact-cta-link">Get in touch</a>
+            </p>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-ctn">
+            <input
+              required
+              type="text"
+              class="form-input-box"
+              autocomplete="off"
+              name="name"
+              id="name"
+            />
+            <label class="form-label" for="name">Your name</label>
+          </div>
+          <div class="form-ctn">
+            <input
+              required
+              type="email"
+              class="form-input-box"
+              autocomplete="off"
+              name="email"
+            />
+            <label class="form-label" for="email">Your email</label>
+          </div>
+          <div class="form-text-ctn">
+            <textarea
+              required
+              class="form-text-box"
+              name="message"
+              id="message"
+              placeholder="Hey, I've got a project I want you to help me with..."
+              aria-placeholder="Hey, I've got a project I want you to help me with..."
+            ></textarea>
+          </div>
+          <button type="submit" class="form-submit-btn">
+            Send Message <span class="fas fa-paper-plane"></span>
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div
+        class="footer-nav-ctn"
+        style="--left: var(--fixed-aside); --right: auto"
+      >
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link"
+              ><span class="fab fa-github"></span
+            ></a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link"
+              ><span class="fab fa-twitter"></span
+            ></a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link"
+              ><span class="fab fa-codepen"></span
+            ></a>
+          </li>
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link"
+              ><span class="fab fa-linkedin"></span
+            ></a>
+          </li>
+        </ul>
+        <div class="footer-line-decoration"></div>
+      </div>
+      <div
+        class="footer-mail-ctn"
+        style="--left: auto; --right: var(--fixed-aside)"
+      >
+        <a href="#" class="footer-mail-link"
+          ><span class="fas fa-rocket"></span
+        ></a>
+        <a href="mailto:ezihegodswill01@gmail.com" class="footer-mail-link"
+          ><span class="fas fa-envelope"></span
+        ></a>
+        <div class="footer-line-decoration"></div>
+      </div>
+      <div class="footer-ctn ctn">
+        <a href="#" class="footer-link">Designed & built by Ezihe Godswill</a>
+      </div>
+    </footer>
     <script src="js/all.js"></script>
-    <script src="js/siema.min.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>

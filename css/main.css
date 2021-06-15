@@ -1,26 +1,14 @@
 @import url(./initials.css);
+@import url(./navbar.css);
 @import url(./home.css);
 @import url(./portfolio.css);
-@import url(./navbar.css);
+@import url(./contact.css);
+@import url(./footer.css);
 
 @media (min-width: 768px) {
   .ctn {
     width: 90%;
-    max-width: 1140px;
   }
-
-  .portfolio-alt-ctn {
-    width: 90%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .portfolio-alt-box {
-    max-width: 300px;
-    margin: 8px 8px;
-  }
-
   .nav {
     display: block;
   }
@@ -30,13 +18,17 @@
   }
 
   .home-heading {
-    font-size: 1.96rem;
+    font-size: 1.86rem;
+  }
+
+  .home-heading-name {
+    font-size: 1.5rem;
   }
   .portfolio-item {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 56px auto 72px auto;
+    margin-top: 56px;
   }
 
   .portfolio-item:nth-child(2n) {
@@ -52,23 +44,55 @@
 
   .portfolio-item-image-ctn {
     width: 60%;
-    height: 400px;
+  }
+
+  .portfolio-alt-ctn {
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .portfolio-alt-box {
+    max-width: 280px;
+    margin: 8px 8px;
+  }
+
+  .contact-form {
+    padding: 24px 24px;
+  }
+
+  .footer-nav-ctn,
+  .footer-mail-ctn {
+    display: flex;
   }
 }
 
 @media (min-width: 1000px) {
-  body {
-    font-size: 1.125rem;
+  :root {
+    --fixed-aside: 30px;
   }
+
+  .portfolio-item-image-ctn {
+    height: 400px;
+  }
+
   .portfolio-alt-box {
     max-width: 250px;
+  }
+
+  .portfolio-item-tags-list {
+    display: block;
   }
 }
 
 @media (min-width: 1200px) {
+  :root {
+    --fixed-aside: 40px;
+  }
+
   .ctn {
-    width: 80%;
-    max-width: 1140px;
+    width: 100%;
   }
   .portfolio {
     margin-top: 80px;

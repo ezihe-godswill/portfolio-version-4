@@ -1,11 +1,13 @@
 .header {
   position: fixed;
-  min-height: 72px;
+  height: 72px;
+  top: 0;
+  left: 0;
   width: 100%;
   display: flex;
   background: #fff;
   justify-content: center;
-  /* box-shadow: 0 0 1px rgba(0, 0, 0, 0.12); */
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.12);
   z-index: 1000;
 }
 
@@ -16,6 +18,18 @@
   justify-content: center;
   font-weight: bold;
   letter-spacing: 0.64px;
+}
+
+.logo-box a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-img {
+  --size: 48px;
+  width: var(--size);
+  height: var(--size) s;
+  object-fit: contain;
 }
 
 .nav {
@@ -54,11 +68,11 @@
 }
 
 .nav-link-cta {
+  height: auto;
   border-radius: 8px;
-  color: var(--color300);
-  border: 2px dashed var(--color300);
-  margin-right: 4px;
-  padding: 0 24px;
+  color: inherit;
+  padding: 8px 16px;
+  text-decoration: 2px underline wavy var(--color500);
 }
 
 .nav-link:focus,
@@ -71,6 +85,7 @@
   position: relative;
   width: var(--size);
   height: var(--size);
+  cursor: pointer;
 }
 
 .menu-box::before,

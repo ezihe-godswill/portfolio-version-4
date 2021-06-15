@@ -1,6 +1,7 @@
 @import url(./initials.css);
 @import url(./navbar.css);
 @import url(./home.css);
+@import url(./about.css);
 @import url(./portfolio.css);
 @import url(./contact.css);
 @import url(./footer.css);
@@ -24,6 +25,23 @@
   .home-heading-name {
     font-size: 1.5rem;
   }
+
+  .about-ctn {
+    width: 80%;
+  }
+
+  .about-img-box {
+    width: 50%;
+    margin: 0;
+    justify-self: flex-end;
+  }
+
+  .about-text-box {
+    width: 65%;
+    text-align: start;
+    justify-self: flex-start;
+  }
+
   .portfolio-item {
     flex-direction: row;
     align-items: center;
@@ -94,6 +112,13 @@
   .ctn {
     width: 100%;
   }
+
+  .about-ctn {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
   .portfolio {
     margin-top: 80px;
   }

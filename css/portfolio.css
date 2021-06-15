@@ -85,3 +85,7 @@
   border: 1px solid #dbdbff;
   cursor: pointer;
 }
+
+.icon {
+  font-size: 1.125rem;
+}

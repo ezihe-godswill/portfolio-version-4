@@ -61,6 +61,23 @@
 }
 
 .footer-nav-link:focus,
-.footer-mail-link:focus {
+.footer-mail-link:focus,
+.footer-mail-link:hover {
   transform: translateY(-8px);
+}
+
+.footer-mail-link.mail-cta {
+  --size: 48px;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color500);
+  color: var(--color100);
+  border-radius: 50%;
+}
+
+.footer-mail-ctn .footer-line-decoration {
+  height: 100px;
 }

@@ -102,6 +102,10 @@
   .portfolio-item-tags-list {
     display: block;
   }
+
+  .footer-mail-link.mail-cta {
+    --size: 56px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -133,5 +137,9 @@
   .portfolio-alt-box {
     max-width: 300px;
     margin: 8px 8px;
+  }
+
+  .footer-mail-link.mail-cta {
+    --size: 64px;
   }
 }

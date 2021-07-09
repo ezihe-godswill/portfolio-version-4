@@ -9,15 +9,16 @@
 
 .about-text-box {
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   padding: 8px 8px;
   align-self: flex-start;
+  margin-bottom: 32px;
 }
 
 .about-img-box {
   position: relative;
   width: 100%;
-  max-width: 300px;
+  max-width: 348px;
   margin: 0 auto;
   height: 280px;
   align-self: flex-end;

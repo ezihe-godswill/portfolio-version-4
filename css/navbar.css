@@ -1,14 +1,16 @@
 .header {
   position: fixed;
-  height: 72px;
+  height: 88px;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
   background: #fff;
   justify-content: center;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.12);
   z-index: 1000;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(0px);
+  transition: 300ms;
 }
 
 .logo-box {
@@ -26,7 +28,7 @@
 }
 
 .logo-img {
-  --size: 40px;
+  --size: 56px;
   width: var(--size);
   height: var(--size);
   object-fit: contain;

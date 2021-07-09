@@ -67,7 +67,7 @@
 }
 
 .footer-mail-link.mail-cta {
-  --size: 48px;
+  --size: 64px;
   width: var(--size);
   height: var(--size);
   display: flex;
@@ -76,8 +76,5 @@
   background: var(--color500);
   color: var(--color100);
   border-radius: 50%;
-}
-
-.footer-mail-ctn .footer-line-decoration {
-  height: 100px;
+  margin-bottom: 32px;
 }

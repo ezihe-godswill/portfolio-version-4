@@ -22,10 +22,6 @@
     font-size: 1.86rem;
   }
 
-  .home-heading-name {
-    font-size: 1.5rem;
-  }
-
   .about-ctn {
     width: 80%;
   }
@@ -37,7 +33,7 @@
   }
 
   .about-text-box {
-    width: 65%;
+    width: 80%;
     text-align: start;
     justify-self: flex-start;
   }

@@ -38,7 +38,7 @@
 }
 
 .portfolio-item-tags-list {
-  display: none;
+  display: block;
 }
 
 .portfolio-item-cta-list li,

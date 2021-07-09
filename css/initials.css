@@ -30,7 +30,7 @@
   --color500: #f6591c;
   --color600: #9fbdd9;
   --color700: #415acb;
-  --fixed-aside: 4px;
+  --fixed-aside: 12px;
 }
 
 ::selection {
@@ -49,8 +49,16 @@ body {
   font-family: Inter, sans-serif;
   font-family: 1rem;
   font-weight: normal;
-  background: linear-gradient(to bottom, #fff, #f6faff, #fff);
+  background: #fff;
   color: var(--color400);
+}
+
+body.scroll-down > .header {
+  transform: translateY(0);
+}
+
+body.scroll-up > .header {
+  transform: translateY(-200px);
 }
 
 .ctn,
@@ -92,7 +100,7 @@ section {
 }
 
 .section-header {
-  width: 90%;
+  width: 100%;
   max-width: 480px;
   text-align: center;
   padding: 0 24px 48px 24px;

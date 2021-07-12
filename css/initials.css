@@ -34,7 +34,7 @@
 }
 
 ::selection {
-  color: var(--color100);
+  color: var(--color500);
   background: var(--color400);
   text-shadow: none;
 }
@@ -46,7 +46,7 @@ html {
 body {
   width: 100%;
   line-height: 1.5;
-  font-family: Inter, sans-serif;
+  font-family: Poppins, Inter, sans-serif;
   font-family: 1rem;
   font-weight: normal;
   background: #fff;

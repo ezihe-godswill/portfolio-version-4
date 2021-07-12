@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  height: 88px;
+  height: 80px;
   top: 0;
   left: 0;
   width: 100%;
@@ -50,14 +50,14 @@
 }
 
 .nav-item:not(:last-child) {
-  margin-right: 48px;
+  margin-right: 56px;
 }
 
 .nav-link,
 .logo {
   position: relative;
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   width: 100%;
   height: 100%;
   text-decoration: none;
@@ -68,13 +68,13 @@
   font-weight: 600;
 }
 
-.nav-link-cta {
+/* .nav-link-cta {
   height: auto;
   border-radius: 8px;
   color: inherit;
   padding: 8px 16px;
   text-decoration: 2px underline wavy var(--color500);
-}
+} */
 
 .nav-link:focus-within,
 .nav-link:hover,

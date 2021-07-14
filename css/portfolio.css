@@ -6,7 +6,7 @@
 
 .portfolio-item {
   width: 95%;
-  margin: 24px auto 144px auto;
+  margin: 24px auto 16vmin auto;
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-start;
@@ -25,12 +25,13 @@
 }
 
 .portfolio-item-description-ctn {
-  width: 100%;
+  width: 80%;
   padding: 0 8px;
 }
 
 .portfolio-item-name {
   text-transform: capitalize;
+  margin-bottom: 24px;
 }
 
 .portfolio-item-tags-list,

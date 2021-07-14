@@ -8,7 +8,7 @@
   background: #fff;
   justify-content: center;
   z-index: 1000;
-  box-shadow: 0 0 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.072);
   transform: translateY(0px);
   transition: 300ms;
 }
@@ -47,17 +47,18 @@
 
 .nav-item {
   height: 100%;
+  margin-right: 56px;
 }
 
-.nav-item:not(:last-child) {
-  margin-right: 56px;
+.nav-item:last-child {
+  margin-right: 16px;
 }
 
 .nav-link,
 .logo {
   position: relative;
   display: inline-block;
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   width: 100%;
   height: 100%;
   text-decoration: none;
@@ -81,7 +82,7 @@
 .nav-link-cta:hover,
 .nav-link-cta:focus-within {
   color: var(--color300);
-  /* text-decoration: 2px underline wavy var(--color500); */
+  text-decoration: 2px underline wavy var(--color500);
 }
 
 .menu-box {

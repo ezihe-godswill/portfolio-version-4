@@ -33,12 +33,17 @@
   justify-content: flex-end;
 }
 
+.footer-mail-ctn {
+  display: flex;
+}
+
 .footer-nav-list {
   list-style: none;
 }
 
 .footer-nav-link,
 .footer-mail-link {
+  position: relative;
   display: inline-block;
   text-decoration: none;
   color: inherit;

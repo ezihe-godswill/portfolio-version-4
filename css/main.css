@@ -75,20 +75,15 @@
   .contact-form {
     padding: 24px 24px;
   }
-
-  .footer-nav-ctn,
-  .footer-mail-ctn {
-    display: flex;
-  }
 }
 
 @media (min-width: 1000px) {
   :root {
-    --fixed-aside: 30px;
+    --fixed-aside: 40px;
   }
 
   .portfolio-item-image-ctn {
-    height: 400px;
+    height: 440px;
   }
 
   .portfolio-alt-box {
@@ -105,10 +100,6 @@
 }
 
 @media (min-width: 1200px) {
-  :root {
-    --fixed-aside: 40px;
-  }
-
   .ctn {
     width: 100%;
   }
@@ -126,8 +117,8 @@
     width: 30%;
   }
   .portfolio-item-image-ctn {
-    width: 65%;
-    height: 480px;
+    width: 60%;
+    height: 560px;
   }
 
   .portfolio-alt-box {
@@ -137,5 +128,9 @@
 
   .footer-mail-link.mail-cta {
     --size: 64px;
+  }
+
+  .footer-nav-ctn {
+    display: flex;
   }
 }

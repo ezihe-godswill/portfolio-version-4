@@ -30,7 +30,7 @@
   --color500: #f6591c;
   --color600: #9fbdd9;
   --color700: #415acb;
-  --fixed-aside: 12px;
+  --fixed-aside: 24px;
 }
 
 ::selection {
@@ -40,6 +40,7 @@
 }
 
 html {
+  font-size: 100%;
   scroll-behavior: smooth;
 }
 
@@ -47,7 +48,7 @@ body {
   width: 100%;
   line-height: 1.5;
   font-family: Poppins, Inter, sans-serif;
-  font-family: 1rem;
+  font-size: 1rem;
   font-weight: normal;
   background: #fff;
   color: var(--color400);
